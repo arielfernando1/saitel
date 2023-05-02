@@ -13,7 +13,7 @@ class BillSeeder extends Seeder
      */
     public function run(): void
     {
-        $clientId = 11;
+        $clientId = 1;
 
         // Generate 5 bills for the client
         for ($i = 1; $i <= 5; $i++) {
