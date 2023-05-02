@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BillController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('main');
 });
+
+Route::get('/facturacion', function () {
+    return view('home');
+})->name('facturacion');
+
+Route::get('/bills',[BillController::class, 'index'])->name('bills.index');
+Route::get('/generate-pdf', [BillController::class, 'generateBlankPdf'])->name('generate-pdf');
