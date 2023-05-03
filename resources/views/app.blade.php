@@ -31,12 +31,15 @@
 <body>
     <nav class="navbar navbar-light bg-warning" style="padding: 2.5rem; margin-bottom: 2.5rem">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img src="{{ asset('img/logo.png')}}" alt="" width="350"  class="d-inline-block align-text-top">
           </a>
         </div>
       </nav>
       @yield('content')
+
+
+      
 
 
 
