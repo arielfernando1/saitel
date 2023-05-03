@@ -7,6 +7,10 @@
                 <!-- client first name -->
                 <div class="mb-3">
                     <input type="text" class="form-control" id="name" name="name" value="{{ $client->first_name . ' ' . $client->last_name }}" readonly>
+                    <input type="text" class="form-control" value="{{ $client->address}}" readonly>
+                    <input type="text" class="form-control" value="{{ $client->city}}" readonly>
+
+
                 </div>
 
                 <div class="card">
@@ -17,7 +21,7 @@
                                 <tr>
                                     <th scope="col">Sucursal</th>
                                     <th scope="col">No. de Factura</th>
-                                    <th scope="col">Fecha Emision</th>
+                                    <th scope="col">Fecha Emisión</th>
                                     <th scope="col">Total</th>
                                     <th scope="col">Estado</th>
                                     <th scope="col">Descargar</th>

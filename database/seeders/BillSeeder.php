@@ -13,14 +13,15 @@ class BillSeeder extends Seeder
      */
     public function run(): void
     {
-        $clientId = 1;
+        $clientId = 21;
 
         // Generate 5 bills for the client
-        for ($i = 1; $i <= 5; $i++) {
+        for ($i = 1; $i <= 12; $i++) {
             DB::table('bills')->insert([
                 'client_id' => $clientId,
                 'branch' => 'MATRIZ',
-                'date' => '2021-01-0' . $i,
+                // January to December 2022
+                'date' => '2022-' . $i . '-01',
                 'total' => 21.69,
                 'status' => 'Pagado',
             ]);
