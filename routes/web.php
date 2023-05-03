@@ -24,3 +24,7 @@ Route::get('/facturacion', function () {
 
 Route::get('/bills',[BillController::class, 'index'])->name('bills.index');
 Route::get('/generate-pdf', [BillController::class, 'generateBlankPdf'])->name('generate-pdf');
+// site in construction
+Route::get('/working', function () {
+    return view('working');
+})->name('construction');
