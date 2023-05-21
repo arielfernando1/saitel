@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-auto">
-                <a href="/working30,00	">
+                <a href="/working">
                     <img class="icon" src="{{ asset('img/mail.png') }}" alt="mail" width="200">
                     <div class="desc">Correo</div>
                 </a>
