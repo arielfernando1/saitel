@@ -30,7 +30,7 @@
                                 </p>
                             </div>
                             <div class="mb-3">
-                                <label for="rfc" class="form-label">Cedula de Ciudadanìa</label>
+                                <label for="rfc" class="form-label">Cedula de Ciudadanìa (ejm: 1050363736)</label>
                                 <input type="number" maxlength="10" class="form-control" id="dni" name="dni" required>
                                 <div id="emailHelp" class="form-text">Ingrese los 10 digitos de su cèdula de identidad</div>
                             </div>

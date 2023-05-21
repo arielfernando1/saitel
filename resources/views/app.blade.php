@@ -38,7 +38,8 @@
         background-color: rgb(47, 76, 150);
         color: white;
         text-align: center;
-        padding: 1rem;
+        /* padding: 1rem; */
+        /* margin-top: 3rem; */
     }
 </style>
 
@@ -60,10 +61,10 @@
 
 
 
-    <footer class="footer">
+    {{-- <footer class="footer">
         <p>Grupo 7 - Auditoría y Derecho Informático</p>
         <p>MSc. Jairo Hidalgo</p>
-    </footer>
+    </footer> --}}
 
 </body>
 
